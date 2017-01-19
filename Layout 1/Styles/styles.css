@@ -1,0 +1,301 @@
+/* ========== BASE STYLE ============= */
+
+body {
+    background-color: #f7fdfe;
+}
+
+
+#mainContent{
+    
+}
+
+/* ========== MAIN CONTENT ============= */
+
+header{
+   
+    overflow: hidden;  
+    
+}
+
+header h1{
+    font-family: sans-serif;
+    height: 20px;
+    width: 85px;
+    float: left; 
+    color:  #82868f;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 28px;
+    margin-bottom: 30px;
+    margin-left: 250px;
+}
+
+header nav {
+    float: right;
+}
+
+#topNav ul{
+    float: left;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-right: 399px;
+    text-align: right;
+    width: 196px;
+    height: 10px;
+}
+
+#topNav li{
+    font-family: sans-serif;
+    display: inline;
+    padding: 20px;
+    text-transform: capitalize;
+}
+
+#topNav a {
+    color: #82868f;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+#mission{
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+    background-color: black;
+    
+}
+
+
+#transBox{
+    height: 600px; 
+    opacity: 0.8;
+    filter: alpha(opacity=60); 
+}
+
+
+#introImg{
+    position: absolute;
+    left: 0;
+    top: 0; 
+    z-index: -1;
+    height: 600px;
+    
+}
+
+
+#transBox h2 {
+    position: relative;
+    
+    margin-top: 30%;
+    font-family: Avenir;
+    color:  white;
+    font-size: 44px;
+    font-weight: bolder;
+    text-align: center;
+    
+      
+}
+
+
+
+#transBox p {
+    
+    position: relative;
+    
+    margin-top:30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    font-family: Avenir;
+    color:  #f7fdfe;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+#about{ 
+    height: 350px;
+    margin-top: 140px;
+}
+
+#about > h2{
+    font-family: Avenir;
+    color:  #0ebfdd;
+    font-size: 44px;
+    font-weight: 800;
+    text-align: center;
+}
+
+#about > p{
+    margin-top: 30px;
+    margin-left: 18%;
+    margin-right: 18%;
+    font-family: Avenir;
+    color:  #45494d;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#team{
+    height: 600px;
+    background-color:  #0ebfdd;
+    text-align: center;
+}
+
+#team > h2{
+    padding-top: 55px;
+    font-family: Avenir;
+    color:  #ffffff;
+    font-size: 44px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.bio {
+     text-align: center;
+     margin-top: 106px;
+}
+
+.p1 img{
+    border-radius: 50%;
+    width: 40%;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin: auto;
+    
+}
+
+.name {
+    margin-top: 11px;
+    font-family: Avenir;
+    color:  #f7fdfe;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.post {
+    font-family: Avenir;
+    color:  #f7fdfe;
+    font-size: 16px;
+    font-style: oblique;
+    text-align: center;
+}
+
+.p1 {
+    display: inline-block;
+    margin: auto;
+    height: 26%;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+
+
+
+#bioButton{
+    margin-top: 120px;
+}
+
+#bioButton > button{
+    font-family: sans-serif;
+    color:  #f7fdfe;
+    font-size: 14px;
+    text-align: center;
+    background-color: #0ebfdd;
+    border-width: 1px;
+    border-color:  #f9fbfb;
+    border-style: solid;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 5px;
+    width:180px;
+    height: 40px;
+}
+
+#maps{
+    height: 600px;
+    background-image: url(../Images/map.png)
+}
+
+#footer {
+    height: 120px;
+    background-color: #45494d;
+}
+
+
+#bottomNav ul {
+    
+    height: 9px;
+    width: 250px;
+    float: left;
+    margin-top: 36px; 
+    margin-left: 250px;
+}
+
+#bottomNav li{
+    
+    display: inline;
+    padding:20px;
+    
+}
+
+#bottomNav a{
+    
+    text-decoration: none;
+    color: #d8dee4;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+#bottomNavLogos{
+    float: right;
+}
+
+#bottomNavLogos ul{
+    height: 9px;
+    width: 250px;
+    margin-top: 35px;
+    margin-right: 250px;
+    
+}
+
+#bottomNavLogos li{
+    display: inline;
+    float: left;
+    padding: 5px;
+}
+
+
+#bottomNavLogos a{
+    
+    text-decoration: none;
+    color: #d8dee4;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+
+#bottomNavCopy ul{
+    clear:both;
+    height: 12px;
+    width: 396px;
+    float: right;
+    margin-top: 34px;
+    margin-bottom: 13px;
+    margin-right: 250px;
+}
+
+#bottomNavCopy li{
+    display: inline;
+    padding: 5px;
+}
+
+#bottomNavCopy a{
+    text-decoration: none;
+    color: #73767a;
+    font-family: sans-serif;
+    font-size: 12px;
+}
